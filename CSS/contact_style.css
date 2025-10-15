@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff7f0;
+  color: #3b2e2a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+header {
+  background-color: #8b5e34;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #8b5e34;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a76f3c;
+}
+
+#thankYouMessage {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
